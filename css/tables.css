@@ -1,0 +1,53 @@
+.info-table {
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#233857;
+	border-width: 1px;
+	border-color: #0D1111;
+	border-collapse: collapse;
+	border-radius: 4px;
+}
+.info-header {
+	background-color:#3D6DAE;
+	color: #FFFFFF;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #0D1111;
+}
+.info-row {
+	background-color:#D4DFE8;
+}
+.info-cell {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #0D1111;
+	text-align: left;
+
+}
+
+.title {
+	text-align: center;
+	margin: 0;
+	font-weight: bold;
+}
+
+.age {
+	text-align: center;
+}
+
+
+#program-name {
+	width: 115px;
+}
+
+#program-level {
+	width: 100px;
+}
+
+#event-name {
+	width: 155px;
+}
+
+

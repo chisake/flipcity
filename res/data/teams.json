@@ -1,0 +1,32 @@
+{
+  "teams": [
+    {
+      "name": "Mini Pre-Team",
+      "ages": "Ages 4-6",
+      "levels": "Levels 1-2",
+      "description": "For young girls who demonstrate strength, a desire to learn, and a strong ability to focus. This is a pre-competitive team program. Students progress to either Pre-Team or Intro Team at age 7, depending on their progress.",
+      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=10&filters=SUBMIT"
+    },
+    {
+      "name": "Pre-Team",
+      "ages": "Ages 7+",
+      "levels": "Level 2-3",
+      "description": "Students in the Pre-Team program learn the skills necessary to progress to competition Level 3.",
+      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=12&filters=SUBMIT"
+    },
+    {
+      "name": "Junior Team",
+      "ages": "Ages 7-9",
+      "levels": "Level 4-5",
+      "description": "This team is for younger gymnasts who have mastered Level 3 skills and routines.  Enrollment is by coach recommendation and qualifying level 3 meet score only.",
+      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=7&filters=SUBMIT"
+    },
+    {
+      "name": "Senior Team",
+      "ages": "Ages 10+",
+      "levels": "Levels 4-5",
+      "description": "This team is for gymnasts ages 10 & above who have mastered Level 3 skills and routines and are dedicated and focused.  Enrollment is by coach recommendation and qualifying level 3 meet score only.",
+      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=6&filters=SUBMIT"
+    }
+  ]
+}

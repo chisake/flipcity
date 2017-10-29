@@ -1,0 +1,15 @@
+.movtivation {
+	font-size: 12px;
+}
+
+.bio-container {
+	position: relative;
+	padding: 10px;
+}
+.bio-element {
+	position: relative;
+	float: left;
+}
+.nomargin {
+	margin: 0;
+}
