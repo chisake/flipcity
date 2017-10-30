@@ -1,18 +1,6 @@
 {
   "classes": [
     {
-      "name": "High School Workout",
-      "ages": "Ages 14-18",
-      "description": "Off-season workouts for high school gymnasts. Practice skills of all ranges in this semi-structured workshop.",
-      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=15&filters=SUBMIT"
-    },
-    {
-      "name": "Parent & Child",
-      "ages": "Ages 2-3",
-      "description": "Children learn and play with a parent. The little ones practice jumping, hopping, rolling, balancing, and more.",
-      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=19&filters=SUBMIT"
-    },
-    {
       "name": "Preschool",
       "ages": "Ages 3 - 4.5",
       "description": "Co-ed clases teach coordination, balance, and body awareness. Students develop basic movement proficiency for gymnastics and other sports.",
@@ -25,16 +13,10 @@
       "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=4&filters=SUBMIT"
     },
     {
-      "name": "Girls Level 1",
+      "name": "Girls Recreational Levels 1-4",
       "ages": "Ages 6+",
-      "description": "Students practice basic skills on all four women's events: uneven bars, balance beam, floor exercise and vault. Light strength building exercises and conditioning teach students about general fitness.",
-      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=5&filters=SUBMIT"
-    },
-    {
-      "name": "Girls Level 2/3",
-      "ages": "Ages 6+",
-      "description": "Students work on round offs, back handsprings, bar circling skills, handstand vaulting, and more!",
-      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=3&filters=SUBMIT"
+      "description": "Students practice gymnastic skills on uneven bars, balance beam, spring floor, and vault!",
+      "link": "https://www.iclassprov2.com/icpv2/parentportal/flipcity/classes?age_range=&gender=&program=&day=&level=1&filters=SUBMIT"
     },
     {
       "name": "Boys Beginner & Intermediate",

@@ -27,105 +27,8 @@
 				<div class="seperator" />
 </script>
 
-
-<script id="_oneMonthEnrollmentDetails" type="text/template">
-	<div class="inlay">
-	<ul>
-
-	<li>		<div class="text-paper">The full month's tuition is due regardless of how many days the gymnast attends classes during that month.</p></div>
-	</li>
-	<li>		<div class="text-paper">Tuition is pro-rated if a gymnast enrolls in a class during the middle of the month.</p></div>
-	</li>
-
-	<li>		<div class="text-paper">Each gymnast may attend up to 6 make-up classes per year.</p></div>
-	</li>
-
-	<li>		<div class="text-paper">Flip City offers one free trial class per new student! Select "Trial" as your enrollment type when registering for a class. Note that registration for a trial class will not save a student's spot on the roster.</p></div>
-	</li>
-
-	</ul>
-
-	</div>
-
-</script>
-<script id="_continuousEnrollmentDetails" type="text/template">
-	<div class="inlay">
-	<ul>
-	<li>
-	<div class="text-paper">Class session tuition is billed monthly, due on the first class of the month.</p></div>
-	</li>
-	<li>
-	<div class="text-paper">The gymnast's first and last month's tution is due at class registration.</p></div>
-	</li>
-	<li>		<div class="text-paper"><p>The last month's tuition will be held as a non-refundable deposit, and we will apply the deposit towards your tuition on the first payment due date after a cancellation notice is receieved from you.</p></div>
-	</li>
-	<li>		<div class="text-paper"><p>The full month's tuition is due regardless of how many days the gymnast attends classes during that month.</p></div>
-	</li>
-	<li>		<div class="text-paper"><p>Tuition is pro-rated if a gymnast enrolls in a class during the middle of the month.</p></div>
-	</li>
-
-	<li>		<div class="text-paper"><p>Each gymnast may attend up to 6 make-up classes per year.</p></div>
-	</li>
-	<li>		<div class="text-paper"><p>Your gymnast will be automatically unenrolled after being absent for two weeks without notice or payment.</p></div>
-	</li>
-	<li>		<div class="text-paper"><p>Flip City offers one free trial class per new student! Select "Trial" as your enrollment type when registering for a class. Note that registration for a trial class will not save a student's spot on the roster.</p></div>
-	</li>
-
-	</ul>
-
-	</div>
-
-</script>
-<script id="_enrollmentDetailsMenu" type="text/template">
-	<div><p><img class="bang" src="images/bang.png"/>When registering for a class, leave the end-date blank to sign up for Continuous Enrollment, otherwise please specify an end-date.</p></div>
-	<ul id="enrollment-details-options">
-	<li><a class="secondary-text-format" href="#continuousEnrollmentDetails">Continuous Enrollment</a></li>
-	<li><a class="secondary-text-format" href="#oneMonthEnrollmentDetails">One Month Enrollment</a></li>
-
-	</ul>
-	<div id="oneMonthEnrollmentDetails">
-	<% print(render().oneMonthEnrollmentDetails()); %>
-	</div>
-	<div id="continuousEnrollmentDetails">
-	<% print(render().continuousEnrollmentDetails()); %>
-	</div>
-</script>
-<script id="_registrationInfo" type="text/template">
-	<div id="registrationInfo">
-	<div id="enrollment-details-target" class="secondary-text-format">
-	<div>
-	<p class="title">Enrollment Details</p>
-	</div>
-	<div id="enrollment-important" class="info-cell soft-warn">
-	Important!
-	</div>
-	<div id="enrollment-details-call">
-
-	</div>
-
-	</div>
-
-	<div id="enrollment-details">
-
-	<% print(render().enrollmentDetailsMenu()); %>
-	</div>
-
-	</div>
-</script>
-
-<script id="_enrollmentDetailsCallOpen" type="text/template">
-	<p class="enrollment-details-call">Please <span class="highlight">click here</span> to close.  Then, browse the class offerings below!</p>
-</script>
-
-<script id="_enrollmentDetailsCallClosed" type="text/template">
-	<p class="enrollment-details-call">Please <span class="highlight">click here</span> to read Flip City's enrollment options and details.  Then, browse the class offerings below!</p>
-</script>
-
 <script id="_classesMenu" type="text/template">
 	<div id="classesMenu" class="menu">
-	<div class="secondary-text-format info-row registration-info">
-	<% print(render().registrationInfo()); %>
-	</div>
 
 	<div>
 	<% print(render().programInfo(classes)); %>
@@ -172,33 +75,6 @@
  	</div>
 </script>
 
-
-<!--
-<div class="inlay">
-<ul>
-<li>
-<div class="text-paper">Class session tuition is billed monthly, due on the first class of the month.</p>
-</li>
-<li>
-<div class="text-paper">The gymnast's first and last month's tution is due at class registration.</p>
-</li>
-<li>		<div class="text-paper">Flip City will apply the last month's tutition on the first due date after a cancellation notice is receieved.</p>
-</li>
-<li>		<div class="text-paper">The full month's tuition is due regardless of how many days the gymnast attends classes during that month.</p>
-</li>
-<li>		<div class="text-paper">Tuition is pro-rated if a gymnast enrolls in a class during the middle of the month.</p>
-</li>
-
-<li>		<div class="text-paper">Each gymnast may attend up to 6 make-up classes per year.</p>
-</li>
-<li>		<div class="text-paper">Your gymnast will be automatically unenrolled after being absent for two weeks without notice or payment.</p>
-</li>
-<li>		<div class="text-paper">Flip City offers one free trial class per new student! Select "Trial" as your enrollment type when registering for a class. Note that registration for a trial class will not save a student's spot on the roster.</p>
-</li>
-
-</ul>
-
-</div> -->
 <script id="_faqsMenu" type="text/template">
 	<div id="faqMenu" class="menu wordBoxContainer">
 		<div id="faq-questions">
@@ -216,40 +92,47 @@
 			You may also register by calling the gym at 608-834-1444 or emailing <a class="primary-link" href="mailto:info@flipcity.biz">info@flipcity.biz</a>.  We will need your first and last name, your child's first and last name, your address, your phone number, and your child's date of birth.  A waiver must be signed on or before the first day of class by a legal parent or guardian.		</p>
 				</div>
 				<div class="text-paper">
-			<p class="header">
-			What should students wear to class?
-			</p>
-			<p>
-			Leotards are strongly recommended.  Tight athletic shorts over the leotard are optional.  Other tight fitting athletic attire will be permitted if it allows for proper skill spotting.  Students should not wear skirts, jewelry, buttons, zippers, or socks. Gymnastics shoes are permitted.  Team gymnasts are required to wear leotards.</p>
-			</div>
-			<div class="text-paper">
-			<p class="header">
-			Do you offer a trial class?
-			</p>
-			<p>
-			Yes. Students may attend one class before enrolling.  Signing up for a trial class will not hold a spot for your child at that particular class time.  To reserve a spot, please register for the class.  
-			</p>
-			</div>
-			<div class="text-paper">
-			<p class="header">
-			What are the fees for classes?
-			</p>
-			<p>
-			We charge a monthly tuition.  For class tuition prices please visit the "Classes" tab and click the blue "Schedule & Pricing" button.
-			</p>
-			<p>
-			<u>The first and last month's tuition are due at the time of registration.</u>  Thereafter, tuition is due by the first class of the month.  At least 30 days prior to discontinuing a class, please notify us in writing or via email.  We will then apply your last month's tuition to the last month your child will be attending.		</p>
-			<p>
-			You can make payment at the gym or through your Flip City online account.  If you don't have an account yet, click "Login/Register" in the top right hand corner.  On the Login page, click on "New Account".		</p>
-		</div>
-			<div class="text-paper">
-			<p class="header">
-			What if I forget to notify the gym that my child will be discontinuing class?
-			</p>
-			<p>
-			If your child doesn't attend class and we have not received payment after the second class of the month, we will apply your last month's tuition and drop the student from the class at the end of the month.  In case your child was unable to attend class and payment was forgotten, but you want to continue the class, please make the full month's tuition payment along with a $15 late fee.  Note: Your student's spot in that particular class time will not be guaranteed the following month if payment is two weeks late or more. 		</p>
-		</div>
-			
+					<p class="header">
+						How does enrollment work?
+					</p>
+					<p><b>TRIAL CLASS:</b>  Flip City offers one free trial class per new student. Please schedule in advance. Students must meet age and skill mastery requirements for the desired trial class.  When in doubt, a student should trial a class that may be too easy rather than a class that may be too advanced.</p>
+
+					<p><b>MONTHLY TUITION:</b>  Tuition is due by the 1st day of each month.  Tuition will be prorated when less than 4 classes are offered in a month due to holidays or other closures.</p>
+
+					<p><b>ENROLL ANYTIME:</b>  We prorate the first month’s tuition based on when you start class.</p>
+
+					<p><b>AUTOPAYMENT:</b>  A credit card may be kept on file for autopayment. Monthly tuition reminders will NOT be sent. We will notify you by email if your tuition is unable to process. Declined payments (expired card, etc.) must be remedied on or before the 10th day of the month or you risk losing your class spot to a waiting student.</p>
+
+					<p><b>MANUAL PAYMENT:</b>  You may pay tuition using a credit or debit card online through our parent portal or using cash, check, or a card at the gym.  Monthly tuition reminders will NOT be sent. We will notify you by email if your tuition is not received by the 1st class of the month.  Missed payments not remedied by the 7th day of the month may result in losing your class spot to a waiting student.</p>
+				</div>
+				<div class="text-paper">
+					<p class="header">
+						What should I expect to be prepared for class?
+					</p>
+					<p><b>ATTIRE:</b>  Gymnasts should wear a one-piece leotard and shorts.  No skirts, bra tops, or jewelry.  Students practice barefoot.  If student does not have a leotard, soft, tight-fitting athletic attire without buttons or zippers should be worn.  Long hair must be tied back.</p>
+
+					<p><b>ARRIVAL & PICKUP:</b>  Students should arrive no earlier than 10 minutes prior to class and wait on the green floor in the class waiting area.  Please supervise your child until class begins.  Students must be picked up immediately upon class dismissal.</p>
+				</div>
+				<div class="text-paper">
+					<p class="header">
+						How do I unenroll or change a class?
+					</p>
+					<p><b>CHANGING CLASSES:</b> You may change class day, time, or program at any time during enrollment as long as there is room in the desired class and the student has mastered the prerequisite skills. Tuition increases could apply. No refunds will be given when transferring an enrollment.  Your tuition will simply be transferred to the new class or program.</p>
+
+					<p><b>UN-ENROLLING:</b> To un-enroll from class, submit your request through the online parent portal, via email, or complete a paper form at the front desk.  Upon receiving your request, we will update your enrollment accordingly.  No refunds or credits will be issued for pre-paid or missed classes.</p>
+
+					<p><b>SCHEDULE CHANGES:</b>  We reserve the right to change, combine, or cancel classes based on enrollment. We will contact you if this situation should arise and work with you to find another class. A refund for pre-paid future classes will be granted if your class is changed to a new time or cancelled and we cannot find a class time that works with your schedule.</p>
+				</div>
+				<div class="text-paper">
+					<p class="header">
+						How do you handle absences?
+					</p>
+					<p><b>MISSED CLASSES:</b>  Upon enrolling, we reserve your spot in class.  We cannot grant refund or credit requests made after the missed classes have occurred.</p>
+
+					<p><b>MAKEUP CLASSES:</b>  Students are allowed one makeup class per month. Availability of a makeup class is not guaranteed. Only classes of the same level with an open spot may be used. Makeup classes must be scheduled in advance through the parent portal or by contacting the front desk staff.</p>
+
+					<p><b>MEDICAL ABSENCE:</b>  If a student will be missing classes due to injury or illness, a prorated credit will be issued based upon the date we were notified. (Credit requests made after the classes have occurred eliminate our opportunity to fill a vacated class spot).</p>
+				</div>
 			<div class="text-paper">
 			<p class="header">
 			Do you have foam pits?
