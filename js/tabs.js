@@ -57,9 +57,7 @@ function($,       $tabs,            render,  dataAccess, imageSlider) {
 		$('#tabs-parent').html(render.tabsMenu({tabs: tabs().reverse(), promos: promos()}));
 		
 		$('#enrollment-details,.promodiv').hide();
-		
-		$('#enrollment-details-call').html(render.enrollmentDetailsCallClosed());
-		
+				
 		$('#motivation').hide();
 		
 		$('#motivation-button').click(function() {
@@ -71,25 +69,6 @@ function($,       $tabs,            render,  dataAccess, imageSlider) {
 				$motivation.hide();
 			}
 		});
-
-		
-		$('#tabs-parent').on('click', '#enrollment-details-target', function() {
-			var $inlay = $('#enrollment-details');
-			
-			if($inlay.is(':hidden')) {
-				$inlay.show();
-				$('#enrollment-important').hide();
-				$('#enrollment-details-call').html(render.enrollmentDetailsCallOpen());
-			} else {
-				$inlay.hide();
-				$('#enrollment-important').show();
-				$('#enrollment-details-call').html(render.enrollmentDetailsCallClosed());
-			}
-		});
-		
-		/*$('#tabs-parent').on('click', '.tab-button', function() {
-			imageSlider.stop();
-		});*/
 		
 		$('#tabs-parent').on('click', '#home-tabnav', function() {
 			imageSlider.start('#slider-container', 4000);
